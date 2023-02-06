@@ -10,6 +10,6 @@ class examenTest extends TestCase
     public function test1()
     {
         $objeto = new examen(8);
-        $this->assertEquals("aprovado", $objeto->comprobarNota());
+        $this->assertEquals("notable", $objeto->comprobarNota());
     }
 }
